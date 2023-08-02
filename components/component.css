@@ -1,0 +1,12 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-text {
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+@media(max-width: 479px) {
+  .component-text {
+    text-align: center;
+  }
+}
